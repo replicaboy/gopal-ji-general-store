@@ -3,7 +3,7 @@ import axios from 'axios';
 import { IndianRupee, TrendingUp, AlertCircle, Users, PackageOpen } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const API_BASE = 'https://ubiquitous-space-tribble-pj9vjqqr9jwph66r6-5000.app.github.dev/api';
+const API_BASE = 'https://gopal-ji-general-store.vercel.app/api';
 
 const Dashboard = () => {
   const [stats, setStats] = useState({

@@ -4,7 +4,7 @@ import { Users, Plus, IndianRupee, UserCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 // Tumhara Backend URL
-const API_URL = 'https://ubiquitous-space-tribble-pj9vjqqr9jwph66r6-5000.app.github.dev/api/customers';
+const API_URL = 'https://gopal-ji-general-store.vercel.app/api/customers';
 
 const Customers = () => {
   const [customers, setCustomers] = useState([]);

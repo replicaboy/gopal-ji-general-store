@@ -4,7 +4,7 @@ import { QRCodeSVG } from 'qrcode.react'; // QR Code ke liye
 import { ReceiptText, ShoppingCart, Plus, Minus, Trash2, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-const API_BASE = 'https://ubiquitous-space-tribble-pj9vjqqr9jwph66r6-5000.app.github.dev/api';
+const API_BASE = 'https://gopal-ji-general-store.vercel.app/api';
 
 const Billing = () => {
   const [products, setProducts] = useState([]);
