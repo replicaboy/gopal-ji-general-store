@@ -4,7 +4,7 @@ import { Users, Plus, IndianRupee, UserCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 // Tumhara Backend URL
-const API_URL = 'shop-dashboard-pi.vercel.app/api/customers';
+const API_URL = 'https://shop-dashboard-pi.vercel.app/api/customers';
 
 const Customers = () => {
   const [customers, setCustomers] = useState([]);
